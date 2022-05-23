@@ -17,4 +17,29 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-top: solid 5px blue;
+  border-bottom: solid 5px yellow;
+}
+#search-box:hover,
+#search-box:focus {
+  outline: none;
+  background-color:lightblue;
+}
+
+li {
+  list-style: none;
+}
+.country-item {
+  font-size: 20px;
+  font-weight: 400;
+}
+.country-value {
+  font-size:30px;
+color:cadetblue;
+margin-left: 10px;
+}
+.country-name{
+    font-size:55px;
+color:cadetblue;
+margin-left: 15px;
 }
