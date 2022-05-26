@@ -12,34 +12,56 @@ body {
   line-height: 1.5;
 }
 
+ul{
+  list-style: none;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
-  border-top: solid 5px blue;
-  border-bottom: solid 5px yellow;
-}
-#search-box:hover,
-#search-box:focus {
-  outline: none;
-  background-color:lightblue;
 }
 
-li {
-  list-style: none;
+
+/*=================country-block=======================*/ 
+.bigflag{
+  width: 200px;
+  height: auto;
+  display: block;
+  /* padding-left:0px; */
 }
-.country-item {
-  font-size: 20px;
-  font-weight: 400;
+
+.country-info{
+  width: 500px;
 }
-.country-value {
-  font-size:30px;
-color:cadetblue;
-margin-left: 10px;
+
+.country-info__name{
+  margin: 0;
+/* padding-left: 0px; */
 }
-.country-name{
-    font-size:55px;
-color:cadetblue;
-margin-left: 15px;
+
+.country{
+  margin: 0;
+  padding-left: 0;
+}
+
+
+/* =================country-list======================= */
+
+.country-list{
+  padding-left: 0px;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 30px;
+}
+.country-list__name{
+  margin-left: 10px;
+  font-size: 16px;
 }
