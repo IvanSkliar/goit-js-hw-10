@@ -9,7 +9,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background: linear-gradient(to top, rgba(14, 0, 216, 0.459) 50%, rgba(208, 255, 0, 0.582) 50%);
   color: #212121;
   line-height: 1.5;
 }
@@ -23,20 +23,17 @@ ul{
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
-  border: solid 2px #0804c7a2;
+  border: solid 2px #0502af;
 }
 #search-box:hover,
 #search-box:focus {
   outline: none;
-  background-color:rgb(241, 253, 65);
+  background-color:rgb(239, 255, 12);
 }
-
-/*=================country-block=======================*/ 
 .bigflag{
   width: 200px;
   height: auto;
   display: block;
-  /* padding-left:0px; */
 }
 
 .country-info{
@@ -45,17 +42,12 @@ ul{
 
 .country-info__name{
   margin: 0;
-/* padding-left: 0px; */
 }
 
 .country{
   margin: 0;
   padding-left: 0;
 }
-
-
-/* =================country-list======================= */
-
 .country-list{
   padding-left: 0px;
 }
