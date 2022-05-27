@@ -17,13 +17,12 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
-  border-top: solid 5px blue;
-  border-bottom: solid 5px yellow;
+  border: solid 2px #0804c7a2;
 }
 #search-box:hover,
 #search-box:focus {
   outline: none;
-  background-color:lightblue;
+  background-color:rgb(241, 253, 65);
 }
 
 li {
