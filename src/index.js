@@ -14,14 +14,13 @@ const refs = {
 
 const country = input.value.trim();
 input.addEventListener('input', debounce(onSearch, DEBOUNCE_DELAY));
-// input.addEventListener('input', onSearch(country));
-// input.addEventListener('input', onSearch);
+
 
 function onSearch() {
     
     const country = input.value.trim();
     if (country !== "") {
-        // debounce(fetchCountries(`${country}`), DEBOUNCE_DELAY);
+        
         fetchCountries(`${country}`);
          refs.list.innerHTML = ' ';
         refs.block.innerHTML = ' ';
