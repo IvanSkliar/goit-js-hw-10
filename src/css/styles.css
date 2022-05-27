@@ -9,8 +9,9 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://www.zastavki.com/pictures/originals/2017Space_Blue_planet_Earth_on_a_black_background_118223_.jpg);
-  color: #212121;
+  background-image: url(https://cdn.pixabay.com/photo/2012/02/22/19/28/africa-15428_960_720.jpg);
+  background-size: 100%;
+  color: #000000;
   line-height: 1.5;
 }
 
