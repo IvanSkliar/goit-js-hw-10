@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
 }
@@ -10,6 +12,10 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+}
+
+ul{
+  list-style: none;
 }
 
 #search-box {
@@ -25,20 +31,44 @@ body {
   background-color:rgb(241, 253, 65);
 }
 
-li {
-  list-style: none;
+/*=================country-block=======================*/ 
+.bigflag{
+  width: 200px;
+  height: auto;
+  display: block;
+  /* padding-left:0px; */
 }
-.country-item {
-  font-size: 20px;
-  font-weight: 400;
+
+.country-info{
+  width: 500px;
 }
-.country-value {
-  font-size:30px;
-color:cadetblue;
-margin-left: 10px;
+
+.country-info__name{
+  margin: 0;
+/* padding-left: 0px; */
 }
-.country-name{
-    font-size:55px;
-color:cadetblue;
-margin-left: 15px;
+
+.country{
+  margin: 0;
+  padding-left: 0;
+}
+
+
+/* =================country-list======================= */
+
+.country-list{
+  padding-left: 0px;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.flag {
+  width: 30px;
+}
+.country-list__name{
+  margin-left: 10px;
+  font-size: 16px;
 }
